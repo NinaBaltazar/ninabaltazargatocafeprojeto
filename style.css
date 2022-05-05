@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Homemade+Apple&family=Maven+Pro:wght@500&family=Poppins&family=VT323&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+} 
+body{
+    background-color: #fcf7f6;
+}
+
+/*index*/
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #feacb0 ;
+    min-height: 70px;
+    border-bottom: 2px solid #feacb0;
+  
+} 
+.logo{
+    padding-top: 5px;
+}
+
+ nav a{ 
+  align-items: center;
+  padding: 8px;
+  color: white;
+  font-family:'poppins';
+  font-size: 15px;
+
+} 
+
+ nav a:hover{
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+} 
+
+.part1{
+    display: flex;
+    background-color: #f7817f;
+    margin-top: 30px;
+    
+} 
+
+.part1 img{
+    height: 300px;
+    width: 400px;
+} 
+
+
+.part1 h1{
+   font-family: 'Maven Pro', sans-serif;
+   justify-items: center;
+   margin-top: 5px;
+   margin-left: 30px;
+   padding-top: 38px;
+   font-size: 2.9rem;
+   font-weight: 500;
+   color: #412424;
+} 
+
+.part1 p{
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 22px;
+    margin-left: 30px;
+    padding-top: 12px;
+
+}
+.part1 a{
+    display: inline-block;
+    background-color: white;
+    border-radius: 12px 12px;
+    box-shadow: 1px solid #f7817f;
+    color:#f7817f;
+    padding: 12px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'poppins';
+} 
+
+.part1 a:hover{
+    background-color: #feacb0;
+    color:#fcf7f6;
+    transition-duration: 0.5s;
+    
+} 
+
+.horarios{
+ display: inline-block;
+ padding: 8px;
+ margin-bottom: 12px;
+   
+} 
+
+
+
+.horarios h2{
+    margin: 0 600px 0 600px;
+    padding-top: 30px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 40px;
+}  
+
+.part2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+} 
+.part2 .botafogo{
+    margin-right: 100px;
+    
+}
+.part2 .botafogo h3{
+    text-align: center;
+  /*  box-shadow: 30px #f7817f;*/
+    padding: 5px;
+    background-color: #f7aaac;
+    font-family: 'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+} 
+.part2 .botafogo p{
+    text-align: center;
+    padding: 8px;
+    color: #412424;
+    font: 'poppins';
+    font-size: 15px;
+}  
+
+.part2 .img1{
+    border: 54px solid #412424;
+} 
+
+.part2 .barra h3{
+    text-align: center;
+  /*  box-shadow: 30px #f7817f;*/
+    padding: 5px;
+    background-color: #f7aaac;
+    font-family: 'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+} 
+
+.part2 .barra p{
+    text-align: center;
+    padding: 8px;
+    color: #412424;
+    font: 'poppins';
+    font-size: 15px;
+} 
+
+.part2 .barra img{
+    margin-left: 50px;
+} 
+
+footer{
+    background-color: #823a3a;
+    padding-bottom: 50px;
+    margin-top: 20px;
+} 
+
+.gc{
+    text-align: center;
+    padding:20px;
+    font-family:'Maven Pro', sans-serif;
+    color:white;
+}
+
+.infos{
+    display: flex;
+    border-top: 1px solid white;
+    text-align: center;
+    justify-content: center;
+    gap: 575px;
+} 
+
+.infos .contatos h4{
+    font-family:'Maven Pro', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.infos .contatos p{
+    font-family: 'poppins';
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+ .infos .social h4{
+    font-family:'Maven Pro', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+ } 
+
+ .infos .social p{
+    font-family: 'poppins';
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+ }
+
+ .copy {
+     display: flex;
+     border-top: 1px solid white;
+
+ } 
+
+ .copy p{
+    font-family: 'poppins';
+    color: white;
+    font-size: 15px;
+   margin: 0 50% 0 43% ;
+ } 
+
+ /*area pet*/ 
+
+ .areapet{
+     display: inline-block;
+     text-align: center;
+     padding-left: 550px;
+     padding-top: 25px;
+  
+ }
+
+ .areapet h1{
+     text-align: center;
+     font-family:'Maven Pro', sans-serif;
+     color: #412424;
+     font-size: 50px;
+     border: 1px solid #412424;
+     padding: 8px;
+   
+ } 
+
+ .areapet p{
+    text-align: center;
+    padding: 5px;
+    color: #412424;
+    font: 'poppins';
+    font-size: 20px;
+ } 
+
+ .areapet-2{
+     display: flex;
+ } 
+
+ .area1{
+     padding: 20px;
+ } 
+
+ .area1 .numero{
+     text-align: center;
+ } 
+ .area1 p{
+     text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+ } 
+
+ .area1 .figura{
+     text-align: center;
+ } 
+
+ .area2{
+     padding: 20px;
+ } 
+
+ .area2 .numero{
+     text-align: center;
+     padding-right: 55px;
+ } 
+
+ .area2 p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+ } 
+
+ .area2 .figura{
+     text-align: center;
+     padding-top: 2px;
+ } 
+
+ .area3{
+     padding: 20px;
+ } 
+
+ .area3 .numero{
+     text-align: center;
+ } 
+
+ .area3 p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+ } 
+
+ .area3 .figura{
+     text-align: center;
+     padding-top: 2px;
+ } 
+
+ .area3{
+    padding: 20px;
+} 
+
+.area3 .numero{
+    text-align: center;
+} 
+
+.area3 p{
+   text-align: center;
+   font-family: 'poppins';
+   color: #412424;
+   font-size: 15px;
+} 
+
+.area3 .figura{
+    text-align: center;
+    padding-top: 2px;
+} 
+
+
+.area4{
+    padding: 20px;
+} 
+
+.area4 .numero{
+    text-align: center;
+} 
+
+.area4 p{
+   text-align: center;
+   font-family: 'poppins';
+   color: #412424;
+   font-size: 15px;
+} 
+
+.area4 .figura{
+    text-align: center;
+    padding-top: 2px;
+}  
+
+
+.area5{
+    padding: 20px;
+} 
+
+.area5 .numero{
+    text-align: center;
+} 
+
+.area5 p{
+   text-align: center;
+   font-family: 'poppins';
+   color: #412424;
+   font-size: 15px;
+} 
+
+.area5 .figura{
+    text-align: center;
+    padding-top: 2px;
+}  
+
+
+.area6{
+    padding: 20px;
+} 
+
+.area6 .numero{
+    text-align: center;
+} 
+
+.area6 p{
+   text-align: center;
+   font-family: 'poppins';
+   color: #412424;
+   font-size: 15px;
+} 
+
+.area6 .figura{
+    text-align: center;
+    padding-top: 2px;
+} 
+
+.areapet-3{
+    display: flex;
+}  
+
+/*cardapio*/ 
+
+.titulo{
+    display: flex;
+    background-color: #f7aaac;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+} 
+
+.titulo img{
+    text-align: center;
+    padding-left: 598px;
+}
+
+
+.cardapio{
+    display: flex;
+    text-align: center;
+} 
+.catpuccino{
+    margin-top: 20px;
+}
+.catpuccino h2{
+    font-family:'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.catpuccino p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+} 
+.catpuccino img{
+    height: 200px;
+    min-height: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+} 
+
+ .catpuccino img:hover{
+    background-color: #f7817f;
+} 
+
+.brownie{
+    margin-top: 20px;
+    
+}
+.brownie h2{
+    font-family:'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.brownie p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+} 
+.brownie img{
+    height: 200px;
+    min-height: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+} 
+
+.brownie img:hover{
+    background-color: #f7817f;
+} 
+
+.lemonade{
+    margin-top: 20px;
+    
+}
+.lemonade h2{
+    font-family:'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.lemonade p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+} 
+.lemonade img{
+    height: 200px;
+    min-height: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+} 
+
+.lemonade img:hover{
+    background-color: #f7817f;
+} 
+
+.cardapio-2{
+    display: flex;
+    text-align: center;
+    margin-right: 50px;
+    padding-bottom: 30px;
+} 
+.sanduiche{
+    margin-top: 20px;
+    
+}
+.sanduiche h2{
+    font-family:'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.sanduiche p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+} 
+.sanduiche img{
+    height: 200px;
+    min-height: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+} 
+
+.sanduiche img:hover{
+    background-color: #f7817f;
+}  
+
+.bolo{
+    margin-top: 20px;
+    padding-left: 25px;
+    
+}
+.bolo h2{
+    font-family:'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.bolo p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+} 
+.bolo img{
+    height: 200px;
+    min-height: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+} 
+
+.bolo img:hover{
+    background-color: #f7817f;
+}  
+
+.cafe{
+    margin-top: 20px;
+    padding-left: 80px;
+    
+}
+.cafe h2{
+    font-family:'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.cafe p{
+    text-align: center;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 15px;
+} 
+.cafe img{
+    height: 200px;
+    min-height: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+} 
+
+.cafe img:hover{
+    background-color: #f7817f;
+}  
+ /*novidades*/ 
+
+ .catyoga{
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     background-color: #de8383;
+     margin-top: 20px;
+     border: 1px solid #823a3a;
+ } 
+
+ .catyoga h1{
+     display: inline-block;
+     font-family:'Homemade Apple', sans-serif;
+     color: #412424;
+     font-size: 60px;
+     padding: 50px 10px 0 25px;
+     
+ } 
+
+ .catyoga p{
+     display: block;
+    text-align: center;
+    padding: 50px 60px 0 25px;
+    font-family: 'poppins';
+    color: #412424;
+    font-size: 30px;
+ }
+.catyoga img{
+    height: 200px;
+    width: 200px;
+   padding-left: 100px;
+   padding-right: 50px;
+  
+}
+
+.cat2{
+    display: flex;
+    margin-top: 20px;
+    padding: 40px;
+}
+.cat2 h2 {
+    text-align: center;
+    border: 1px solid #412424;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 60px;
+    color: #412424;
+    font-weight: 400;
+    
+} 
+
+.cat2 p{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #412424;
+    font-weight: 400; 
+
+} 
+.maps{
+    display: flex;
+    text-align: center;
+  
+    
+}
+.maps-1{
+     display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #de8383;
+    padding: 30px;
+    margin: 60px;
+    
+} 
+
+
+ .maps-1 h3{
+    text-align: center;
+    padding: 15px;
+    background-color: #f7aaac;
+    font-family: 'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+} 
+
+
+ .maps-2 h3{
+    text-align: center;
+    padding: 15px;
+    background-color: #f7aaac;
+    font-family: 'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+} 
+
+.maps-2{
+    display: inline-block;
+    justify-content: center;
+    background-color: #de8383;
+    padding: 30px;
+    margin: 60px;
+    margin-right: 40px;
+    
+}
+/*quem somos*/ 
+
+.paragrafo1{
+    margin-top: 20px;
+}
+
+.p1{
+    display: flex;
+    padding: 30px;
+}  
+
+.p1 p{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    padding-top: 80px;
+    font-size: 20px;
+    color: #412424;
+    font-weight: 400; 
+    padding-left: 20px;
+
+}
+
+.p1 .revista{
+    height: 400px;
+    width: 400px;
+    background-color: #823a3a;
+    padding: 8px;
+} 
+
+.a1{
+    display: block;
+}  
+
+.separa{
+    display: inline-block;
+    padding: 0 500px 0 700px;
+
+}
+
+.paragrafo2{
+    margin-top: 20px;
+}
+
+.p2{
+    display: flex;
+    padding: 30px;
+}  
+
+.p2 p{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    padding-top: 80px;
+    font-size: 20px;
+    color: #412424;
+    font-weight: 400; 
+    
+
+}
+
+.p2 img{
+    height: 400px;
+    width: 400px;
+    background-color: #823a3a;
+    padding: 8px;
+} 
+
+.a2{
+    display: block;
+}  
+
+/* Contatos*/ 
+
+.contato-formulario{
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+
+.contato-formulario h1{
+    text-align: center;
+    padding: 15px;
+    margin: 0 180px 0 460px;
+    background-color: #f7aaac;
+    font-family: 'Maven Pro', sans-serif;
+    color: #412424;
+    font-size: 20px;
+}
+
+
+
+button, input, textarea {
+    border-radius: 0.8rem;
+}
+
+fieldset {
+    margin: 2rem;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+textarea {
+    border: 0.2rem solid #D93D41;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #412424;
+    display: block;
+    height: 16rem;
+    resize: none;
+    width: 22.872rem;
+}
+
+.campo {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+.campo label {
+    color: #f7817f;
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+.campo input[type="text"], .campo input[type="tel"], .campo input[type="email"] {
+    border: 0.2rem solid #D93D41;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0, 0, 0, 0.2);
+    display: block;
+    height: 1.8rem;
+    padding: 0.4rem;
+}
+
+.campo input::placeholder , .campo textarea::placeholder {
+    color: #100003;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.campo input:focus, .campo textarea:focus {
+    background: #DC8184;
+    outline: none;
+}
+
+.botao-formulario {
+    align-items: center;
+    background-color: #D93D41;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    outline-offset: 0.12rem;
+    outline: 0.12rem solid #100003;
+    padding: 0.2rem 0.6rem;
+    transition: .5s;
+}
+
+.botao-formulario:hover {
+    background: #DC8184;
+}
+
+.instagram{
+    display: block;
+    background-color: #D93D41;
+} 
+
+.instagram h2{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    color: #f3f2f2;
+    font-weight: 400; 
+    
+} 
+.instagram a{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    color: #f2eeee;
+    font-weight: 400;
+    margin-left: 560px;
+
+} 
+
+.instagram a:hover{
+    color: #de8383;
+}
+
+ 
